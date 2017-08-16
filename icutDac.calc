@@ -1,0 +1,11 @@
+code=vcut/vref
+lsb=vcut/rsense
+vcut=vref*(dac/rtop)*rbot
+dac=32
+vref=bg
+bg=1.195
+rbot=3000*lbot/(3.5*40*0.1/rsense)
+rsense=0.1
+rtop=16*3000*ltop/3.5
+lbot=104.15
+ltop=103.75
